@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocka – Carry What Matters</title>
+    <meta name="description" content="Clevere Taschen und Babykleidung für moderne Familien.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo-transparent.png" alt="Pocka Logo">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about" data-de="Über uns" data-en="About">Über uns</a></li>
+                <li><a href="#products" data-de="Produkte" data-en="Products">Produkte</a></li>
+                <li><a href="#contact" data-de="Kontakt" data-en="Contact">Kontakt</a></li>
+                <li><a href="#shop" class="btn btn-nav" data-de="Shop" data-en="Shop">Shop</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="de">DE</button>
+                    <span>|</span>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="images/logo-transparent.png" alt="Pocka - carry what matters" class="hero-logo">
+            <p class="hero-subtitle" data-de="Clevere Taschen und Babykleidung für moderne Familien" data-en="Smart bags and baby clothing for modern families">Clevere Taschen und Babykleidung für moderne Familien</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary" data-de="Entdecken" data-en="Discover">Entdecken</a>
+                <a href="#shop" class="btn btn-secondary" data-de="Zum Shop" data-en="Shop Now">Zum Shop</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-tag" data-de="Unsere Geschichte" data-en="Our Story">Unsere Geschichte</span>
+                    <h2 data-de="Mit Liebe gemacht" data-en="Made with Love">Mit Liebe gemacht</h2>
+                    <p data-de="Hier kommt eure Geschichte hin – warum Pocka, was euch antreibt, was Pocka besonders macht." 
+                       data-en="Your story goes here – why Pocka, what drives you, what makes Pocka special.">
+                        Hier kommt eure Geschichte hin – warum Pocka, was euch antreibt, was Pocka besonders macht.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">Bild</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <span class="section-tag" data-de="Kollektion" data-en="Collection">Kollektion</span>
+            <h2 data-de="Unsere Produkte" data-en="Our Products">Unsere Produkte</h2>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image placeholder-image">Bild</div>
+                    <h3 data-de="Taschen" data-en="Bags">Taschen</h3>
+                    <p data-de="Praktisch, stylisch und durchdacht – für den Alltag mit Kind." data-en="Practical, stylish and thoughtfully designed – for everyday life with kids.">Praktisch, stylisch und durchdacht – für den Alltag mit Kind.</p>
+                    <a href="#shop" class="btn btn-outline" data-de="Entdecken" data-en="Discover">Entdecken</a>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image placeholder-image">Bild</div>
+                    <h3 data-de="Babykleidung" data-en="Baby Clothing">Babykleidung</h3>
+                    <p data-de="Weich, bequem und nachhaltig – für die Kleinsten." data-en="Soft, comfortable and sustainable – for the little ones.">Weich, bequem und nachhaltig – für die Kleinsten.</p>
+                    <a href="#shop" class="btn btn-outline" data-de="Entdecken" data-en="Discover">Entdecken</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop CTA Section -->
+    <section id="shop" class="shop-cta">
+        <div class="container">
+            <h2 data-de="Bereit zum Shoppen?" data-en="Ready to Shop?">Bereit zum Shoppen?</h2>
+            <p data-de="Entdecke unsere Kollektion im Online-Shop" data-en="Discover our collection in the online shop">Entdecke unsere Kollektion im Online-Shop</p>
+            <a href="#" class="btn btn-primary btn-large" data-de="Zum Shop →" data-en="Visit Shop →">Zum Shop →</a>
+            <p class="shop-note" data-de="(Bald verfügbar)" data-en="(Coming soon)">(Bald verfügbar)</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <span class="section-tag" data-de="Kontakt" data-en="Contact">Kontakt</span>
+            <h2 data-de="Schreib uns" data-en="Get in Touch">Schreib uns</h2>
+            <p class="contact-intro" data-de="Fragen, Anregungen oder einfach Hallo sagen?" data-en="Questions, suggestions, or just want to say hello?">Fragen, Anregungen oder einfach Hallo sagen?</p>
+            
+            <form class="contact-form" action="https://formspree.io/f/DEINE_ID" method="POST">
+                <div class="form-row">
+                    <input type="text" name="name" required>
+                    <label data-de="Name" data-en="Name">Name</label>
+                </div>
+                <div class="form-row">
+                    <input type="email" name="email" required>
+                    <label data-de="E-Mail" data-en="Email">E-Mail</label>
+                </div>
+                <div class="form-row">
+                    <textarea name="message" rows="4" required></textarea>
+                    <label data-de="Nachricht" data-en="Message">Nachricht</label>
+                </div>
+                <button type="submit" class="btn btn-primary" data-de="Absenden" data-en="Send">Absenden</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo-transparent.png" alt="Pocka Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="#" data-de="Impressum" data-en="Imprint">Impressum</a>
+                    <a href="#" data-de="Datenschutz" data-en="Privacy">Datenschutz</a>
+                    <a href="#" data-de="AGB" data-en="Terms">AGB</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Pocka. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
